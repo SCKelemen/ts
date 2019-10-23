@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@v0.11/testing/asserts.ts";
 import { test } from "https://deno.land/std@v0.11/testing/mod.ts";
-import { DoNothing } from "./func.ts";
+import { DoNothing } from "./DoNothing.ts";
 
 test(function myTestFunction() {
   assertEquals(false, true);
